@@ -3,11 +3,11 @@ import Link from '@/comopnents/tags/atag'
 import Image from 'next/image'
 import React from 'react'
 
-export default function projectsCard(path, parenCalss, cardCalass, imagelink, path) {
+export default function projectsCard(path, parentCalss, cardCalass, imagelink, path) {
   return (
-    <div className={`card-container cursor-pointer ${parenCalss}`}>
+    <div className={`card-container cursor-pointer ${parentCalss}`}>
         <Link to={path}>
-            <div className={`flex grid-cols-1 grid-cols-2 ${cardCalass} `}>
+            <div className={`grid grid-cols-1 grid-cols-2 ${cardCalass} `}>
                 <div className="image">
                     <Image src={imagelink} alt="project" />
                 </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 
 
-export default function Link({path, Class,  name}) {
+export default function Links({path, Class,  name}) {
   return (
-    <Link to={path} className={Class }>{name}</Link>
+    <Link href={path} className={Class }>{name}</Link>
   )
 }

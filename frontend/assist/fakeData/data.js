@@ -46,5 +46,48 @@ export const skillSection = {
             {name:"expressjs", progress:70, type:"backend", image:""},
             {name:"nodejs", progress:70, type:"backend", image:""},
             {name:"Mongodb", progress:70, type:"backend", image:""},
+        ],
+        techImg:[
+            {name:"HTML", image:"https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"},
+            {name:"CSS", image:"https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"},
+            {name:"Tailwind CSS", image:"https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"},
+            {name:"github", image:"https://img.sheep.io/badge/github%20CSS-38B2AC?style=for-the-badge&logo=javascript&logoColor=black"},
+            {name:"JavaScript", image:"https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"},
+            {name:"React JS", image:"https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white"},
+            {name:"Next JS", image:"https://img.shields.io/badge/Next."},
+            {name:"Express JS", image:"https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"},
+            {name:"Node JS", image:"https://img.shields.io/badge/Node.js-3399FF?style=for-the-badge&logo=node.js&logoColor=white"},
+            {name:"mongodb", image:"https://img.shields.io/badge/mongodb-3399FF?style=for-the-badge"},
+        
+            
         ]
 }
+
+
+
+
+
+
+
+export const FAQs = [
+        {
+            id:"01",
+            question:"How can I get started with web development?",
+            answer:"To get started with web development, you should first have a basic understanding of HTML, CSS, and JavaScript. You can learn these languages through online courses, tutorials, and books. Additionally, you can join online communities and forums to ask questions and connect with other developers."
+        },
+        {
+            id:"02",
+            question:"What are the best tools for web development?",
+            answer:"There are many tools available for web development, such as Visual Studio Code, Sublime Text, and Atom. Some popular options include WebStorm, IntelliJ IDEA, and Visual Studio Code. These tools offer features like intelligent code completion, debugging, and version control."
+        },
+        {
+            id:"03",
+            question:"What are the best practices for web development?",
+            answer:"Some best practices for web development include using semantic HTML, using CSS preprocessors like Sass or Less, using responsive design principles, and following accessibility guidelines."
+        },
+        {
+            id:"04",
+            question:"How can I build a website with a responsive design?",
+            answer:"To build a website with a responsive design, you should use CSS media queries to create different styles for different screen sizes. You can also use frameworks like Bootstrap or Tailwind CSS to simplify the development process."
+        }
+]
